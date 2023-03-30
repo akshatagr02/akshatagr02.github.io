@@ -1,0 +1,34 @@
+.ak-img{
+    height: 30rem;
+}
+.toast{
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    animation:opacity 0.2s ease-in  ;
+
+}
+@keyframes opacity{
+    0% {opacity: 0;}
+    50%{opacity: 0.5;}
+  100% {opacity: 1;}
+}
+.details{
+    font-size: 1.25rem;
+}
+.toast-heading{
+    padding: 4px;
+    background-color: #c4bebe;
+    border-bottom: 2px solid #D2D2D2 ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.toast-text{
+    padding: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title-img{
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+}

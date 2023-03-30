@@ -1,0 +1,6 @@
+ I want to take PCM (physics,Chemistry,Maths), As my passion is computer programming. Computer is my best friend. Coding is that thing which I enjoy very much and It relaxes me. I think that it helps in development of the brain. I not only know coding but also know other software like corel draw, ms word, little bit photoshop and many more. I think that By knowing all these thing you guessed that what I wanted to become? I Wanted to became the Software Engineer. My dream is to go to the Indian Institute of Technology (IIT) Bombay.<br>I am also very glad to have a big family My Father Rajesh Agrawal , Mother Shruti Agrawal, I also have my uncle, aunt and eight cousin sisters and seven cousine brothers. This is about my life
+
+
+
+ <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Coding Projects</h2>
+                  <li>Akshat I Blog Android Application</li>
