@@ -32,3 +32,21 @@
     border: 2px solid green;
     border-radius: 10px;
 }
+.fav-icon{
+       height: 32px;
+    text-align: right;
+    float: right;
+    margin: 7px;
+}
+.mod-cont{
+    padding-bottom: 1rem;
+}
+.container-res{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.mar{
+    margin: 1.25rem;
+}
+
+
