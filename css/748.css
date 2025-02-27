@@ -1,0 +1,28 @@
+/*.fav-icon{
+    align-items: center;
+    padding: 17px;
+}*/
+.ak-img{
+    height: auto;
+    width: auto;
+}
+.mar{
+    margin: 0rem;
+}
+.container-res{
+    margin: 0rem;
+}
+.header{
+    text-align: center;
+}
+.img-head{
+    display: flex;
+}
+a{
+    color:blue;
+    text-decoration: underline;
+    
+}
+ul li{
+    margin: 11px;
+}
