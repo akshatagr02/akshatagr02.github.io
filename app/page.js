@@ -1,69 +1,68 @@
+import Navbar from "@/Components/Navbar";
+import TechIcons from "@/Components/TechIcons";
+import Typewriter from "@/Components/Typewriter";
 import Image from "next/image";
-
+import { lazy } from "react";
+import { FaJs, FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 export default function Home() {
+  const phrases = [" Android Development", "Web Development", "Agentic AI Systems" , "And Many More"];
+    const iconStyle = "text-[#161513] text-[35px]";
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.js
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <>
+      <Navbar />
+
+      <main className="bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] min-h-full bg-[size:14px_24px]">
+
+
+
+
+          <section className="pt-8  h-[85vh] flex flex-col items-center  items-center justify-center">
+
+
+       
+
+            <img src="/img/photo.png" className="w-[16rem] rounded-full " width={50} height={50} />
+
+            <div>
+
+            <div className="text-xl text-amber-500 font-bold text-amber-50 mt-6 gap-3 grid grid-cols-2 ">
+              <h1 className="inline text-3xl font-poppins text-end text-white">I worked Around With</h1>
+              <span className="inline-block text-left min-w-[20ch] text-3xl font-poppins"><Typewriter strings={phrases} /></span>
+            </div>
+            <div>
+              <p className="text-center w-[55rem] mt-3 text-gray-400">
+                I'm A Second-Year B.Tech Student Passionate About Building Software, Exploring AI, And Turning Ideas Into Reality. I Have Experience In Android Development, Full-Stack Development, And Agentic AI. Also Actively Participating In Hackathons, Tech Events, And Entrepreneurship Events.
+              </p>
+            </div>
+          <div className="buttons-container gap-3 flex justify-center mt-5">
+        <button className="px-6 py-[10px] rounded-full border border-gray-300 bg-[#f9fafb] text-black font-poppins shadow-sm transition-colors duration-200 hover:bg-gray-200 cursor-pointer ">
+  Download CV
+</button>
+
+<button className="px-6 py-[10px] rounded-full border border-[white] bg-[#0d111b] text-white shadow-sm transition-colors duration-200 hover:bg-[#171d2a] cursor-pointer">
+  Read Articles
+</button>
+          </div>
+
+
+            </div>
+       
+
+          </section>
+
+
+          
+  <section className="w-full bg-[#c5c5c5] py-12 flex flex-col mb-56 items-center">
+      <h2 className="mb-7 text-[20px ] font-bold tracking-[2px] text-[#171615]">
+        EXPERIENCE WITH
+      </h2>
+
+      <TechIcons/>
+    </section>
+
       </main>
-    </div>
+
+    </>
   );
 }
